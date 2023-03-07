@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionName__",
+    "version": "0.1",
+    "description": "__MSG_extensionDescription__",
+    "default_locale": "en",
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["config.js", "content-script.js"]
+        }
+    ],
+
+    "icons": {
+        "48": "icons/logo_48.png",
+        "96": "icons/logo_96.png",
+        "128": "icons/logo_128.png",
+        "256": "icons/logo_256.png",
+        "512": "icons/logo_512.png"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "addon@simplebionic"
+        }
+    }
+}

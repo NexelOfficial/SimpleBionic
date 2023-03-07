@@ -1,0 +1,10 @@
+{
+    "extensionName": {
+        "message": "SimpleBionic",
+        "description": "Name of the extension."
+    },
+    "extensionDescription": {
+        "message": "Add simple Bionic Reading to paragraph and span elements.",
+        "description": "Description of the add-on."
+    }
+}

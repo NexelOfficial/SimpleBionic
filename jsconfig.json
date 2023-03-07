@@ -1,0 +1,10 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "chrome",
+            "firefox-webext-browser",
+            "safari-extension",
+            "safari-extension-content"
+        ]
+    }
+}
