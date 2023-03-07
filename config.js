@@ -1,5 +1,5 @@
 const Config = {
-    "usedElements": "p",    // The elements bionic will apply to. Example: "p, span"
+    "usedElements": "p, li",    // The elements bionic will apply to. Example: "p, span"
     "boldAmount": "0.5",    // The percentage of the word that will be bold. Default: 0.5
     "initMessage": {        // Message that will print in the console when loaded
         "enabled": true,
