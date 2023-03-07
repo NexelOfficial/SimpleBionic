@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Texts */
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    margin: 0;
+    margin-top: 12px;
+}
+
+/* Classes */
+.title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.description {
+    margin-bottom: 12px;
+}
+
+.container {
+    margin: 8px;
+    width: 300px;
+    height: 400px;
+}
+
+.site-container {
+    display: flex;
+    background-color: #3f3f3f;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 2px;
+    margin-bottom: 6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.site-container:hover {
+    background-color: #dd6666;
+}
+
+.site-image {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+}

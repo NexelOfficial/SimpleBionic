@@ -6,15 +6,21 @@
     "default_locale": "en",
 
     "background": {
-        "scripts": ["storage.js", "background.js"]
+        "scripts": ["storage.js", "background/background.js"]
     },
 
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "js": ["storage.js", "browser-polyfill.js", "config.js", "content-script.js"]
+            "js": ["storage.js", "browser-polyfill.js", "config.js", "content/bionic.js"]
         }
     ],
+
+    "browser_action": {
+        "default_icon": "icons/logo_128.png",
+        "default_title": "SimpleBionic",
+        "default_popup": "popup/popup.html"
+    },
 
     "permissions": ["contextMenus", "storage", "tabs"],
 

@@ -9,8 +9,6 @@ async function createContextMenu(tabs) {
 
   const title = siteDisabled ? titleDisabled : titleEnabled;
 
-  console.log(baseOnly);
-
   browser.contextMenus.create({
     id: "disable-on-page",
     title: title,

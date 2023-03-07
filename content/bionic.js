@@ -16,8 +16,6 @@ function bionifyWord(word) {
 const baseUrl = getBaseUrl(window.location.href);
 
 isSiteDisabled(baseUrl).then((siteDisabled) => {
-  console.log(siteDisabled);
-
   if (!siteDisabled) {
     enableBionicReading();
   }
@@ -42,7 +40,7 @@ function enableBionicReading() {
 
       // Check for each word if it's a valid word
       for (const word of splittedElement) {
-        if (word && !/\w*\d\w*/.test(word) && word.length > 2) {
+        if (word && !/\w*\d\w*/.test(word)) {
           newInner += bionifyWord(word) + " ";
         } else {
           newInner += word + " ";

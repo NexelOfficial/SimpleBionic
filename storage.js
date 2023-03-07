@@ -28,7 +28,10 @@ async function disableSite(site) {
   if (!sites.includes(site)) {
     sites.push(site);
     await browser.storage.sync.set({ disabledSites: sites });
+    return true;
   }
+
+  return false;
 }
 
 async function enableSite(site) {
@@ -40,5 +43,8 @@ async function enableSite(site) {
     }
 
     await browser.storage.sync.set({ disabledSites: sites });
+    return true;
   }
+
+  return false;
 }
