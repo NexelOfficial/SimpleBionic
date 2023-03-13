@@ -9,3 +9,5 @@ Installing the extension from source is done by opening the extensions page, ena
 
 ### Firefox:
 Firefox users have a harder time installing from source. The best solution to permanently install the extension from source without having to re-add it everytime the browser restarts, is by using the Developer edition of Firefox. In the Developer edition of Firefox, navigate to `about:config` and look for the `xpinstall.signatures.required` entry. Set this to false. Now go to `about:addons` and install the add-on from file after archiving it to a `.zip` file.
+
+### Good news for Firefox Users! You can simply download the extension from the Firefox store [here](https://addons.mozilla.org/en-US/firefox/addon/simplebionic/)
